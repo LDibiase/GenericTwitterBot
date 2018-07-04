@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "http://schemastore.org/schemas/json/webjob-publish-settings.json",
   "webJobName": "TrashyTweetBot",
-  "runMode": "Continuous",
+  "runMode": "Scheduled",
   "schedule": "0 30 10 * * 1-5"
 }

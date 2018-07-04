@@ -6,10 +6,10 @@ namespace GenericTwitterBot
 {
     public class Program
     {
-        private static string customer_key = "VpYs3vdxVQxPKNzcemr45o7BU";
-        private static string customer_key_secret = "GgvHC3tS6yDcExU2K9OuDncSqj7dR6aOwIF2ySYCG5lr4AnhqU";
-        private static string access_token = "2999012704-NAHGsmX8rcxSA048EHzGuZNgHEiMYto3kuCJ04L";
-        private static string access_token_secret = "cqiIpQkjnYTrIth79F2S84kqSc4cLWscRE3kXlBRlx4O1";
+        private static string customer_key = "c7IFmzdrLZGLKNGBMhISlNx0V";
+        private static string customer_key_secret = "7l9DlYayaNnQqtz6aG3lVNbN2v8aWOdEtiwIqNmbOTpp21RBqK";
+        private static string access_token = "1014552154693095425-u6wdM1UNBn4sffknb6t7lklSF58PmF";
+        private static string access_token_secret = "I4790PDx8aztuTqMGynRjx4godDROdey6HzV5DNkePWSs";
 
         private static TwitterService service = new TwitterService(customer_key, customer_key_secret, access_token, access_token_secret);
 
@@ -25,8 +25,8 @@ namespace GenericTwitterBot
 
             account = accountList[index];
 
-            //SendTweet("Aguante trashy " + account);
-            SendTweet("Aguante trashy");
+            SendTweet("Aguante trashy " + account);
+            //SendTweet("Aguante trashy");
         }
 
         private static void SendTweet(string status)
