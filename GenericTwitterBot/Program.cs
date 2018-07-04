@@ -25,7 +25,8 @@ namespace GenericTwitterBot
 
             account = accountList[index];
 
-            SendTweet("Aguante trashy " + account);
+            //SendTweet("Aguante trashy " + account);
+            SendTweet("Aguante trashy");
         }
 
         private static void SendTweet(string status)
